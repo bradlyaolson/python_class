@@ -1,0 +1,29 @@
+(applied_python)[bolson@ip-172-30-0-34 python_class]$ git clone git@github.com:bradlyaolson/python_class.git
+Cloning into 'python_class'...
+Enter passphrase for key '/home/bolson/.ssh/id_rsa':
+remote: Counting objects: 41, done.
+remote: Compressing objects: 100% (23/23), done.
+remote: Total 41 (delta 13), reused 31 (delta 9), pack-reused 0
+Receiving objects: 100% (41/41), 10.13 KiB | 0 bytes/s, done.
+Resolving deltas: 100% (13/13), done.
+Checking connectivity... done.
+(applied_python)[bolson@ip-172-30-0-34 python_class]$
+
+
+(applied_python)[bolson@ip-172-30-0-34 python_class]$ cd python_class/
+(applied_python)[bolson@ip-172-30-0-34 python_class]$ ls -al
+total 60
+drwxrwxr-x 6 bolson bolson  4096 Jan 17 11:17 .
+drwxrwxr-x 7 bolson bolson  4096 Jan 17 11:17 ..
+drwxrwxr-x 2 bolson bolson  4096 Jan 17 11:17 ciscoconfparse
+drwxrwxr-x 2 bolson bolson  4096 Jan 17 11:17 class1
+drwxrwxr-x 8 bolson bolson  4096 Jan 17 11:17 .git
+-rw-rw-r-- 1 bolson bolson  1045 Jan 17 11:17 .gitignore
+-rw-rw-r-- 1 bolson bolson 11357 Jan 17 11:17 LICENSE
+drwxrwxr-x 2 bolson bolson  4096 Jan 17 11:17 net_test
+-rw-rw-r-- 1 bolson bolson    42 Jan 17 11:17 README.md
+-rw-rw-r-- 1 bolson bolson   145 Jan 17 11:17 test_file.json
+-rw-rw-r-- 1 bolson bolson   171 Jan 17 11:17 test_file.yml
+-rw-rw-r-- 1 bolson bolson    33 Jan 17 11:17 test_for.py
+-rw-rw-r-- 1 bolson bolson   105 Jan 17 11:17 test_hello.py
+(applied_python)[bolson@ip-172-30-0-34 python_class]$
