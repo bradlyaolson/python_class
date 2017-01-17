@@ -1,0 +1,45 @@
+pplied_python)[bolson@ip-172-30-0-34 python_class]$ git checkout -b test
+Switched to a new branch 'test'
+(applied_python)[bolson@ip-172-30-0-34 python_class]$ git push origin test
+Enter passphrase for key '/home/bolson/.ssh/id_rsa':
+Total 0 (delta 0), reused 0 (delta 0)
+To git@github.com:bradlyaolson/python_class.git
+ * [new branch]      test -> test
+(applied_python)[bolson@ip-172-30-0-34 python_class]$ git branch
+  dev
+  master
+* test
+(applied_python)[bolson@ip-172-30-0-34 python_class]$
+(applied_python)[bolson@ip-172-30-0-34 python_class]$
+(applied_python)[bolson@ip-172-30-0-34 python_class]$ ls -al
+total 60
+drwxrwxr-x  6 bolson bolson  4096 Jan 17 09:05 .
+drwx------ 11 bolson bolson  4096 Jan 17 09:08 ..
+drwxrwxr-x  2 bolson bolson  4096 Jan 17 07:37 ciscoconfparse
+drwxrwxr-x  2 bolson bolson  4096 Jan 17 09:08 class1
+drwxrwxr-x  8 bolson bolson  4096 Jan 17 09:11 .git
+-rw-rw-r--  1 bolson bolson  1045 Jan 13 08:47 .gitignore
+-rw-rw-r--  1 bolson bolson 11357 Jan 13 08:47 LICENSE
+drwxrwxr-x  2 bolson bolson  4096 Jan 13 10:33 net_test
+-rw-rw-r--  1 bolson bolson    42 Jan 13 09:15 README.md
+-rw-rw-r--  1 bolson bolson   145 Jan 16 09:18 test_file.json
+-rw-rw-r--  1 bolson bolson   171 Jan 16 08:28 test_file.yml
+-rw-rw-r--  1 bolson bolson    33 Jan 13 10:33 test_for.py
+-rw-rw-r--  1 bolson bolson   105 Jan 13 10:31 test_hello.py
+(applied_python)[bolson@ip-172-30-0-34 python_class]$
+(applied_python)[bolson@ip-172-30-0-34 python_class]$
+(applied_python)[bolson@ip-172-30-0-34 python_class]$ vi test_file_for_test_branch.txt
+(applied_python)[bolson@ip-172-30-0-34 python_class]$
+(applied_python)[bolson@ip-172-30-0-34 python_class]$
+(applied_python)[bolson@ip-172-30-0-34 python_class]$ git checkout master
+Switched to branch 'master'
+Your branch is up-to-date with 'origin/master'.
+(applied_python)[bolson@ip-172-30-0-34 python_class]$
+(applied_python)[bolson@ip-172-30-0-34 python_class]$ git merge test
+Already up-to-date.
+(applied_python)[bolson@ip-172-30-0-34 python_class]$
+(applied_python)[bolson@ip-172-30-0-34 python_class]$ git branch
+  dev
+* master
+  test
+(applied_python)[bolson@ip-172-30-0-34 python_class]$

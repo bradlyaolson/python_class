@@ -1,0 +1,40 @@
+(applied_python)[bolson@ip-172-30-0-34 python_class]$ vi ex4_test.txt
+(applied_python)[bolson@ip-172-30-0-34 python_class]$
+(applied_python)[bolson@ip-172-30-0-34 python_class]$ git status
+On branch master
+Your branch is up-to-date with 'origin/master'.
+Changes not staged for commit:
+  (use "git add/rm <file>..." to update what will be committed)
+  (use "git checkout -- <file>..." to discard changes in working directory)
+
+    deleted:    class1/exercise1.py
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+    class1/ex3_git_clone.txt
+    ex4_test.txt
+    python_class/
+    test_file_for_test_branch.txt
+
+no changes added to commit (use "git add" and/or "git commit -a")
+(applied_python)[bolson@ip-172-30-0-34 python_class]$ git add .
+(applied_python)[bolson@ip-172-30-0-34 python_class]$ git commit -m "Adding Excercise 4 test file"
+[master 33c9695] Adding Excercise 4 test file
+ 5 files changed, 32 insertions(+)
+ create mode 100644 class1/ex3_git_clone.txt
+ delete mode 100644 class1/exercise1.py
+ create mode 100644 ex4_test.txt
+ create mode 160000 python_class
+ create mode 100644 test_file_for_test_branch.txt
+(applied_python)[bolson@ip-172-30-0-34 python_class]$
+(applied_python)[bolson@ip-172-30-0-34 python_class]$ git push origin master
+Enter passphrase for key '/home/bolson/.ssh/id_rsa':
+Counting objects: 6, done.
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (6/6), 1009 bytes | 0 bytes/s, done.
+Total 6 (delta 1), reused 0 (delta 0)
+remote: Resolving deltas: 100% (1/1), completed with 1 local objects.
+To git@github.com:bradlyaolson/python_class.git
+   8cd70bc..33c9695  master -> master
+(applied_python)[bolson@ip-172-30-0-34 python_class]$
