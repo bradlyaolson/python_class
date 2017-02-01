@@ -2,7 +2,7 @@
 import yaml
 import json
 
-def dumps():
+def dump():
     yaml_file = 'ex6_test.yml'
     json_file = 'ex6_test.json'
 
@@ -26,6 +26,5 @@ def dumps():
     with open(json_file, "w") as f:
         json.dump(list_1, f)
 
-#
-# if __name__ == "__main__":
-#     main()
+if __name__ == "__main__":
+    dump()
