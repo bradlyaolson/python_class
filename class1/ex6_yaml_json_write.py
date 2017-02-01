@@ -17,7 +17,7 @@ def dump():
         'confreg',
         'uptime',
         'dir',
-        dict1
+        dict_1
     }
 
     with open("yaml_file", "w") as f:
