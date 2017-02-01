@@ -20,10 +20,10 @@ def main():
         dict_1,
     ]
 
-    with open('yaml_file', 'w') as f:
+    with open('yaml_file.yml', 'w') as f:
         f.write(yaml.dump(list_1, default_flow_style=False))
 
-    with open('json_file', 'w') as f:
+    with open('json_file.json', 'w') as f:
         json.dump(list_1, f)
 
 if __name__ == '__main__':
