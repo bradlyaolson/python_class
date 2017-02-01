@@ -17,7 +17,8 @@ def main():
         'confreg',
         'uptime',
         'dir',
-        dict_1
+        dict_1,
+        'string'
     }
 
     with open('yaml_file', 'w') as f:
