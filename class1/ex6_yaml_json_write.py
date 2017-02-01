@@ -13,13 +13,12 @@ def main():
         'model':    '2951'
     }
 
-    list_1 = {
+    list_1 = [
         'confreg',
         'uptime',
         'dir',
         dict_1,
-        'string'
-    }
+    ]
 
     with open('yaml_file', 'w') as f:
         f.write(yaml.dump(list_1, default_flow_style=False))
