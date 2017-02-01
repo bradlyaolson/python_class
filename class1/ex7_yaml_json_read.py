@@ -9,13 +9,13 @@ import json
 
 from pprint import pprint as pp
 
-def output_format(my_list, my_str):
+def output_format(list_1, str_1):
 
     print '\n\n'
-    print '#' * 3
-    print '#' * 3 + my_str
-    print '#' * 3
-    pp(my_list)
+    print '#'
+    print '#' + str_1
+    print '#'
+    pp(list_1)
 
 def main():
 
@@ -28,8 +28,8 @@ def main():
     with open(json_file) as f:
         json_list = json.load(f)
 
-    output_format(yaml_list, ' YAML')
-    output_format(json_list, ' JSON')
+    output_format(yaml_list, ' YAML File:')
+    output_format(json_list, ' JSON File:')
     print '\n'
 
 if __name__ == "__main__":
