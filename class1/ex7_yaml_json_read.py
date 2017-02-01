@@ -12,9 +12,7 @@ from pprint import pprint as pp
 def output_format(list_1, str_1):
 
     print '\n\n'
-    print '#'
-    print '#' + str_1
-    print '#'
+    print str_1
     pp(list_1)
 
 def main():
